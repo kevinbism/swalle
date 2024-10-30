@@ -4,7 +4,7 @@ Questo progetto è un semplice slider per immagini in JavaScript. Permette di na
 
 ## Demo
 
-Per vedere il progetto visita questa [DEMO](https://kevinbism.github.io/swalle/)
+Per vedere il progetto visita questa [DEMO](https://kevinbism.github.io/swalle/).
 
 ## Funzionalità Principali
 
