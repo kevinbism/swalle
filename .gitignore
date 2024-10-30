@@ -1,0 +1,51 @@
+# Dipendenze e moduli di Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+.pnpm-debug.log*
+
+# Build output
+dist/
+build/
+out/
+
+# File temporanei generati dall'ambiente di sviluppo
+.DS_Store
+Thumbs.db
+*.log
+*.tsbuildinfo
+
+# Configurazione degli editor e IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ambiente
+.env
+.env.*.local
+
+# Test output
+coverage/
+*.lcov
+
+# Storico e file di cache
+.history/
+.cache/
+.terraform/
+.temp/
+
+# Configurazioni di sistema
+*.swp
+*.swo
+
+# Cartella pubblica (se generata automaticamente)
+public/
+
+# Altri file temporanei
+*.bak
+*.tmp

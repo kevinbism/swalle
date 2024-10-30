@@ -1,0 +1,12 @@
+{
+  "name": "swalle-slider",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src -d dist --out-file-extension .min.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  }
+}
