@@ -2,6 +2,10 @@
 
 Questo progetto è un semplice slider per immagini in JavaScript. Permette di navigare tra le immagini tramite pulsanti, navigazione tramite swipe e con un sistema di paginazione. Lo slider supporta l'autoplay e può essere personalizzato.
 
+## Demo
+
+Per vedere il progetto visita questa [DEMO](https://kevinbism.github.io/swalle/)
+
 ## Funzionalità Principali
 
 - **Navigazione tramite pulsanti**: supporta un pulsante "prev" per l'immagine precedente e un pulsante "next" per l'immagine successiva.
