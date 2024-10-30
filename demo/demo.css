@@ -25,3 +25,47 @@
 .swalle-image.active {
   opacity: 1;
 }
+
+.swalle-arrow {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.swalle-arrow svg {
+  height: 50px;
+  fill: #fff;
+}
+
+.swalle-arrow--prev {
+  left: 20px;
+}
+
+.swalle-arrow--next {
+  right: 20px;
+}
+
+.swalle-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  translate: -50%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.swalle-pagination-item {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.swalle-pagination-item-active {
+  background-color: #fff;
+}
