@@ -1,5 +1,24 @@
 {
-  "presets": ["@babel/preset-env"],
-  "minified": true,
+  "presets": [
+    [
+      "minify",
+      {
+        "builtIns": false,
+        "evaluate": false,
+        "mangle": {
+          "keepClassName": true
+        }
+      }
+    ],
+    [
+      "@babel/preset-env",
+      {
+        "targets": "> 0.25%, not dead",
+        "modules": false,
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ]
+  ],
   "comments": false
 }
