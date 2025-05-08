@@ -59,6 +59,8 @@ function createPagination(el) {
   for (let i = 0; i < swalles.length; i++) {
     const bullet = document.createElement('span');
     bullet.classList.add(`${className}-item`);
+    bullet.setAttribute('data-index', i);
+    bullet.setAttribute('data-number', i + 1);
 
     bullet.addEventListener('click', () => {
       stopAutoplay();
