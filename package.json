@@ -1,13 +1,20 @@
 {
   "name": "swalle-slider",
-  "version": "1.0.0",
+  "author": "Kevin Ramirez",
+  "version": "1.0.1",
+  "license": "MIT",
   "scripts": {
     "build": "babel src -d dist --out-file-extension .min.js"
   },
+  "keywords": [
+    "slider",
+    "javascript"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.24.7",
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
     "babel-minify": "^0.5.2"
-  }
+  },
+  "browserslist": "> 0.25%, not dead"
 }
